@@ -1,0 +1,8 @@
+{
+	type:Base,
+	faction:Neutral,
+	name:"Test Base Please Ignore",
+	resource:2,
+	strength:5,
+	abilities: {}
+}

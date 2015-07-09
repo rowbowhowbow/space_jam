@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor", "Frontend\Editor.csproj", "{32FC8607-6847-4C34-9A0E-2E3A1A278A69}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F2E0C8F-6801-4EE4-9296-56345C15E688} = {3F2E0C8F-6801-4EE4-9296-56345C15E688}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalderaCore", "..\CalderaCore\CalderaCore\CalderaCore.csproj", "{3F2E0C8F-6801-4EE4-9296-56345C15E688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalderaServer", "CalderaServer\CalderaServer.csproj", "{B7D4EBA6-559A-4A1A-AF5C-C2C7EF00DA1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32FC8607-6847-4C34-9A0E-2E3A1A278A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FC8607-6847-4C34-9A0E-2E3A1A278A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FC8607-6847-4C34-9A0E-2E3A1A278A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FC8607-6847-4C34-9A0E-2E3A1A278A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2E0C8F-6801-4EE4-9296-56345C15E688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2E0C8F-6801-4EE4-9296-56345C15E688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2E0C8F-6801-4EE4-9296-56345C15E688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2E0C8F-6801-4EE4-9296-56345C15E688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D4EBA6-559A-4A1A-AF5C-C2C7EF00DA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D4EBA6-559A-4A1A-AF5C-C2C7EF00DA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D4EBA6-559A-4A1A-AF5C-C2C7EF00DA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D4EBA6-559A-4A1A-AF5C-C2C7EF00DA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
